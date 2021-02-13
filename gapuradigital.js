@@ -21,5 +21,7 @@ function checkTime(i) {
     return i;
 }
 
+startTime();
+
 
 
