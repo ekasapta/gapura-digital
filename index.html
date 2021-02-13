@@ -13,7 +13,7 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body onload="startTime()">
     
     <div class="w-100 h-100 position-relative">
 
@@ -71,7 +71,7 @@
         <div class="d-flex align-items-center h-100 content-wrapper">
           <div class="mx-auto text-center mr-5">
             <div class="content-top">
-              <h1 class="clocks">22:01 AM</h1>
+              <h1 id="clock-o" class="clocks"></h1>
               <h2 class="mantras">Good Morning, Hen.</h2>
             </div>
 
@@ -104,6 +104,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
     
     <script src="assets/js/jquery.min.js"></script>
+    <script src="gapuradigital.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>    
     <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
