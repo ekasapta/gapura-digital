@@ -119,6 +119,7 @@
       $('.search-type-content a').on('click', function(e) {
         var id = $(this).data('id');
 
+        // add search engine
         if(id == 'google') {
           $('.input-search-wrapper .input-search').attr('name', 'q')
           $('.input-search-wrapper .input-search').attr('placeholder', 'Search on Google')
