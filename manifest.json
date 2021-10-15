@@ -22,8 +22,8 @@
     },
 
     "browser_action": {
-        "default_icon": "gapura.png",
-        "default_title": "Beastify"
-    }
+      "default_icon": "gapura.png",
+      "default_title": "Gapura Digital"
+    } 
 
-  }
+}
